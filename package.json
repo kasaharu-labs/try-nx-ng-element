@@ -2,7 +2,9 @@
   "name": "@try-nx-ng-element/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "nx": "nx"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.1.0",
