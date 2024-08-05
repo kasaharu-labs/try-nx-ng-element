@@ -8,11 +8,12 @@ import { createCustomElement } from '@angular/elements';
 import { RouterModule } from '@angular/router';
 // eslint-disable-next-line @nx/enforce-module-boundaries
 import { MyHeaderComponent } from '../../../../my-lib/src';
+import { HeaderComponent } from './header/header.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [NxWelcomeComponent, RouterModule, HeaderComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   selector: 'app-root',
   templateUrl: './app.component.html',
